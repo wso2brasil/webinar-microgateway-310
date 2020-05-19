@@ -1,0 +1,6 @@
+*.jar
+myapi/target/*
+.classpath
+.factorypath
+.project
+interceptors-java/.settings/*
