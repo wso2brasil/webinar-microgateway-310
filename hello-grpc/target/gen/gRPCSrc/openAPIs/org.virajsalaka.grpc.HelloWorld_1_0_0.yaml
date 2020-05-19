@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: org.virajsalaka.grpc.HelloWorld
+  version: 1.0.0
+security:
+- grpc-apikey-scheme: []
+paths:
+  hello:
+    post:
+      operationId: 1c5b123e-f826-4423-9d50-7857ce857964
+      security:
+      - grpc-oauth2-scheme: []
+      - grpc-apikey-scheme: []
+components:
+  securitySchemes:
+    grpc-apikey-scheme:
+      type: apiKey
+      name: api_key
+      in: header
+x-wso2-basePath: /org.virajsalaka.grpc.HelloWorld
+x-wso2-production-endpoints:
+  urls:
+  - http://localhost:50051

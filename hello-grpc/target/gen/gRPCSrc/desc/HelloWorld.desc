@@ -1,0 +1,12 @@
+
+è
+HelloWorld.protoorg.virajsalaka.grpcwso2_options.proto"$
+HelloRequest
+input (	Rinput"$
+
+HelloReply
+output (	Routput2}
+
+HelloWorldM
+hello".org.virajsalaka.grpc.HelloRequest .org.virajsalaka.grpc.HelloReply äµ
+http://localhost:50051òµbproto3
